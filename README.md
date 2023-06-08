@@ -11,6 +11,8 @@
 
 ![](https://i.ibb.co/xhqXLnQ/2023-06-09-00-46-51.png)
 
+![](https://i.ibb.co/KV20NLN/2023-06-09-01-07-39.png)
+
 # Додаткові статті:
 - [deploying-vite-app-to-github-pages](https://dev.to/shashannkbawa/deploying-vite-app-to-github-pages-3ane)
 - [vitejs.dev](https://vitejs.dev/guide/)

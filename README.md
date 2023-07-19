@@ -34,3 +34,16 @@
 - [vitejs.dev](https://vitejs.dev/guide/)
 - [vitejs.dev/guide/static-deploy](https://vitejs.dev/guide/static-deploy.html#github-pages)
 - [youtube - Deploy Vite app to GitHub Pages using GitHub Actions](https://www.youtube.com/watch?v=MKw-IriprJY&ab_channel=MaciekSitkowski)
+
+# Змінні оточення на хостингу GitHub
+![](https://i.ibb.co/Pwp15BT/2023-07-20-00-21-35.png)
+![](https://i.ibb.co/Fh119wF/2023-07-20-00-24-06.png)
+
+```bash
+   - name: Build and set env
+        env:
+          VITE_CHANNEL_ID: ${{  vars.VITE_CHANNEL_ID  }}
+        run: npm run build
+```
+
+![](https://i.ibb.co/LYRPhSm/2023-07-20-00-31-23.png)

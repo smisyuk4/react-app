@@ -9,7 +9,7 @@ import './index.css';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Provider store={store}>
-      <BrowserRouter basename="/react-app"> не потрібно для firebase deploy
+      <BrowserRouter basename="/react-app"> 
       {/* <BrowserRouter> */}
         <App />
       </BrowserRouter>

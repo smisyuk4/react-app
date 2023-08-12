@@ -47,3 +47,7 @@
 ```
 
 ![](https://i.ibb.co/LYRPhSm/2023-07-20-00-31-23.png)
+
+# Deploy to Firebase
+- `npm run build`
+- `npm run deploy`

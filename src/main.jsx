@@ -9,8 +9,9 @@ import './index.css';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Provider store={store}>
-      <BrowserRouter basename="/react-app"> 
-      {/* <BrowserRouter> */}
+      <BrowserRouter basename="/react-app">
+        {/* basename="/react-app" не потрібно для versel */}
+        {/* <BrowserRouter> */}
         <App />
       </BrowserRouter>
     </Provider>
